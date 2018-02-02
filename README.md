@@ -173,6 +173,12 @@ methods:
             type: boolean
           isFormParameter:
             type: boolean
+          isLast:
+            type: boolean
+            description: true if last parameter (useful for omitting trailing comma)
+      successfulResponseType:
+        type: string
+        description: the return type of successful response
 ```
 
 #### Custom Mustache Variables
